@@ -34,13 +34,18 @@ var numbers = [11, 22, 33, 44, 55, 66]
 // console.log(divThree);
 // Exercise 4
 // Use map on the numbers array to save any numbers from the array that are evenly divisible by 3 into another array.
+// console.log(numbers.filter(function(numbers){
+//   return numbers%3===0;
+// }))
+//
+// console.log(numbers.filter((numbers) => numbers%3===0));
 
 
 // Exercise 5
 // Consider this variable:
 var toons = [{name: "Tom", animal: "cat"}, {name: "Jerry", animal: "mouse"}, {name: "Bugs", animal: "rabbit"}, {name: "Daffy", animal: "duck"}, {name: "Felix", animal: "cat"}, {name: "Oswald", animal: "rabbit"}]
 // Write a for loop that saves all cat characters to another array.
-
+console.log(toons.filter(()));
 
 // Exercise 6
 // Use map on the toons array to save all rabbit characters to another array.

@@ -8,22 +8,39 @@
 // Consider this variable:
 var nums = [1, 2, 3, 4, 5]
 // Write a for loop that saves the result of each number multiplied by 5 to another array.
+// var newNums = [];
+// for(let i=0;i<nums.length;i++){
+//   newNums.push(nums[i]*5);
+// }
+// console.log(newNums);
 
 // Exercise 2
 // Use a map on the nums array that saves the result of each number multiplied by 5 to another array.
+// let timesFive = nums.map((val,i,timesFive) => {
+//   return val *5;
+// })
+// console.log(timesFive);
 
 // Exercise 3
 // Consider this variable:
 var numbers = [11, 22, 33, 44, 55, 66]
 // Write a for loop that saves all numbers in the numbers array that are evenly divisible by 3 into another array.
-
+// var divThree = [];
+// for(let i=0;i<numbers.length;i++){
+//   if(numbers[i]%3==0){
+//       divThree.push(numbers[i]);
+//   }
+// }
+// console.log(divThree);
 // Exercise 4
 // Use map on the numbers array to save any numbers from the array that are evenly divisible by 3 into another array.
+
 
 // Exercise 5
 // Consider this variable:
 var toons = [{name: "Tom", animal: "cat"}, {name: "Jerry", animal: "mouse"}, {name: "Bugs", animal: "rabbit"}, {name: "Daffy", animal: "duck"}, {name: "Felix", animal: "cat"}, {name: "Oswald", animal: "rabbit"}]
 // Write a for loop that saves all cat characters to another array.
+
 
 // Exercise 6
 // Use map on the toons array to save all rabbit characters to another array.

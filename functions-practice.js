@@ -72,12 +72,12 @@ var budget = 275.00
 // Exercise 9
 // Refactor the previous exercise to replace "Product" in the return to the name of the product.
 // For example, checkBudget(product, budget, message) ----> "OledMonitor is beyond budget"
-function checkBudget(prod,budg,msg){
-  if(prod.price<=budg){
-    console.log(msg(prod,true));
-  }else{
-    console.log(msg(prod,false));
-  }
-}
+// function checkBudget(prod,budg,msg){
+//   if(prod.price<=budg){
+//     console.log(msg(prod,true));
+//   }else{
+//     console.log(msg(prod,false));
+//   }
+// }
 
 checkBudget(product,budget,message);

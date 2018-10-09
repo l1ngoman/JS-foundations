@@ -24,7 +24,7 @@ var person = { fName: "Arthur", lastName: "Dent" }
 // Consider this variable.
 var lunch = { name: "PB and Banana", type: "sandwich", ingredients: ["bread", "peanut butter", "banana"] }
 // Write the code that accesses the ingredients property of the lunch object. Provide the answer in dot and bracket notation.
-
+// console.log(lunch.type);
 // Exercise 7
 // Write the code that accesses the first item in the ingredients property of the lunch object. Provide the answer in dot and bracket notation.
 
@@ -33,6 +33,10 @@ var lunch = { name: "PB and Banana", type: "sandwich", ingredients: ["bread", "p
 
 // Exercise 9
 // Write a function that takes an object like the one above and returns "The ingredients for a PB and Banana sandwich are bread, peanut butter, and banana."
+lunch.printRecipe = (lunch) => console.log(`The ingredients for a PB and banana sandwich are ${lunch.ingredients[0]}, ${lunch.ingredients[1]}, and ${lunch.ingredients[2]}.`);
+lunch.printRecipe(lunch);
+console.log(lunch.printRecipe);
+console.log(lunch);
 
 // Exercise 10
 // Add a method to the object that returns "The ingredients for a PB and Banana sandwich are bread, peanut butter, and banana."

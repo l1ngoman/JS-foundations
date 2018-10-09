@@ -23,6 +23,18 @@
 
 // Exercise 7
 // Write a function that uses while loop to prompt a user for an even number until their entry is even.
+do{
+  var sent = false;
+  var ans = prompt("Enter an even number")
+  if(ans%2==1){
+    alert("That's not even!!! You're a dick!");
+    sent = true;
+  }else {
+    alert("You did it (finally!...). You entered: "+ans);
+    sent=false;
+  }
+}while(sent);
+
 
 // Exercise 8
 // Write a function that uses a do while loop to prompt a user for an odd number until their entry isodd.
